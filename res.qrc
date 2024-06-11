@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/base_image">
+        <file>icons/ImageAdd.png</file>
+    </qresource>
+    <qresource prefix="/model">
+        <file>model/LFPN_g6b1d72rd1_800000.pt</file>
+        <file>model/LSRN.pt</file>
+        <file>model/RCAN.pt</file>
+    </qresource>
+</RCC>

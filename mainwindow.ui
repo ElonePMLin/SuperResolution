@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>530</width>
+    <height>435</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>530</width>
+    <height>435</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Enhancer</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="imageLabel">
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="loadImage">
+        <property name="text">
+         <string>加载图片</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="switchSizeButton">
+        <property name="text">
+         <string>原始大小</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="superResolutionButton">
+      <property name="text">
+       <string>超分辨率</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="saveImageButton">
+      <property name="text">
+       <string>保存</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionimageFitH">
+   <property name="text">
+    <string>imageFitH</string>
+   </property>
+   <property name="toolTip">
+    <string>imageFitH</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
